@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 598px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.form-feedback {
+  padding: 45px 36px 45px 56px;
+}
+.form-feedback .form-feedback__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.form-feedback .form-feedback__field-wrapper {
+  width: 232px;
+  height: 56px;
+  float: left;
+  margin: 0px 21px 33px 0px;
+}
+.form-feedback .form-feedback__field-wrapper label {
+  top: 9px;
+  position: relative;
+  left: 9px;
+  background: white;
+  padding: 5px;
+}
+.form-feedback .form-feedback__field-wrapper #errEmail, .form-feedback .form-feedback__field-wrapper #errPhone {
+  display: block;
+  top: -48px;
+  position: relative;
+  left: 15px;
+  color: red;
+}
+.form-feedback .form-feedback__field-wrapper .field-wrapper__field {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #263238;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 33px;
+  outline-style: none;
+  padding: 10px 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-feedback .form-feedback__field-wrapper .field-wrapper__field:focus {
+  border: 2px solid #1BB55C;
+}
+.form-feedback .form-feedback__field-wrapper-msg {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 25px;
+}
+.form-feedback .form-feedback__field-wrapper-msg #message {
+  resize: none;
+}
+.form-feedback .form-feedback__rules {
+  width: 100%;
+  float: left;
+}
+.form-feedback .form-feedback__rules #form-messages {
+  text-align: center;
+  margin: 20px;
+}
+.form-feedback .form-feedback__rules p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+.form-feedback .form-feedback__rules p a {
+  color: #263238;
+}
+.form-feedback .form-feedback__sub-btn {
+  display: block;
+  margin: 0px auto;
+  width: 205px;
+  height: 45px;
+  background: #1BB55C;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
